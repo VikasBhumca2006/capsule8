@@ -15,8 +15,8 @@
 package sensor
 
 import (
-	"github.com/capsule8/capsule8/pkg/config"
-	"github.com/capsule8/capsule8/pkg/services"
+	"github.com/VikasBhumca2006/capsule8/pkg/config"
+	"github.com/VikasBhumca2006/capsule8/pkg/services"
 	"github.com/golang/glog"
 )
 
