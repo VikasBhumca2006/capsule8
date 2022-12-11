@@ -24,8 +24,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/capsule8/capsule8/pkg/config"
-	"github.com/capsule8/capsule8/pkg/sys"
+	"github.com/VikasBhumca2006/capsule8/pkg/config"
+	"github.com/VikasBhumca2006/capsule8/pkg/sys"
 	"github.com/golang/glog"
 
 	"golang.org/x/sys/unix"
