@@ -25,7 +25,7 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/capsule8/capsule8/pkg/sys"
+	"github.com/VikasBhumca2006/capsule8/pkg/sys"
 	"github.com/golang/glog"
 )
 
