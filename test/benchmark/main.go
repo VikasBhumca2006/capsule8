@@ -28,12 +28,12 @@ import (
 	"golang.org/x/sys/unix"
 	"google.golang.org/grpc"
 
-	api "github.com/capsule8/capsule8/api/v0"
-	sensorConfig "github.com/capsule8/capsule8/pkg/config"
+	api "github.com/VikasBhumca2006/capsule8/api/v0"
+	sensorConfig "github.com/VikasBhumca2006/capsule8/pkg/config"
 
-	"github.com/capsule8/capsule8/pkg/sensor"
-	"github.com/capsule8/capsule8/pkg/subscription"
-	"github.com/capsule8/capsule8/pkg/version"
+	"github.com/VikasBhumca2006/capsule8/pkg/sensor"
+	"github.com/VikasBhumca2006/capsule8/pkg/subscription"
+	"github.com/VikasBhumca2006/capsule8/pkg/version"
 )
 
 var config struct {
