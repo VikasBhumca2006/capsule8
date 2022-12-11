@@ -24,7 +24,7 @@ import (
 
 	"golang.org/x/sys/unix"
 
-	"github.com/capsule8/capsule8/pkg/sys/proc"
+	"github.com/VikasBhumca2006/capsule8/pkg/sys/proc"
 	"github.com/golang/glog"
 )
 
