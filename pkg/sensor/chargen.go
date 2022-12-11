@@ -15,9 +15,9 @@
 package sensor
 
 import (
-	api "github.com/capsule8/capsule8/api/v0"
+	api "github.com/VikasBhumca2006/capsule8/api/v0"
 
-	"github.com/capsule8/capsule8/pkg/stream"
+	"github.com/VikasBhumca2006/capsule8/pkg/stream"
 )
 
 type chargen struct {
