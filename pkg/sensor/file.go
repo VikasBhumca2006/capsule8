@@ -18,10 +18,10 @@ import (
 	"fmt"
 	"strings"
 
-	api "github.com/capsule8/capsule8/api/v0"
+	api "github.com/VikasBhumca2006/capsule8/api/v0"
 
-	"github.com/capsule8/capsule8/pkg/expression"
-	"github.com/capsule8/capsule8/pkg/sys/perf"
+	"github.com/VikasBhumca2006/capsule8/pkg/expression"
+	"github.com/VikasBhumca2006/capsule8/pkg/sys/perf"
 	"github.com/golang/glog"
 )
 
