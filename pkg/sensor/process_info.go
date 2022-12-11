@@ -30,9 +30,9 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/capsule8/capsule8/pkg/sys"
-	"github.com/capsule8/capsule8/pkg/sys/perf"
-	"github.com/capsule8/capsule8/pkg/sys/proc"
+	"github.com/VikasBhumca2006/capsule8/pkg/sys"
+	"github.com/VikasBhumca2006/capsule8/pkg/sys/perf"
+	"github.com/VikasBhumca2006/capsule8/pkg/sys/proc"
 	"github.com/golang/glog"
 )
 
