@@ -21,7 +21,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/capsule8/capsule8/pkg/stream"
+	"github.com/VikasBhumca2006/capsule8/pkg/stream"
 	"golang.org/x/sys/unix"
 )
 
