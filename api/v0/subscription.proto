@@ -15,7 +15,7 @@
 syntax = "proto3";
 
 package capsule8.api.v0;
-option go_package = "github.com/capsule8/capsule8/api/v0";
+option go_package = "github.com/VikasBhumca2006/capsule8/api/v0";
 
 import "capsule8/api/v0/event.proto";
 import "capsule8/api/v0/expression.proto";
