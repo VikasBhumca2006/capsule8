@@ -18,7 +18,7 @@ import (
 	"syscall"
 	"testing"
 
-	api "github.com/capsule8/capsule8/api/v0"
+	api "github.com/VikasBhumca2006/capsule8/api/v0"
 	"github.com/golang/glog"
 	"github.com/golang/protobuf/ptypes/wrappers"
 )
