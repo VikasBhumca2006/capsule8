@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"time"
 
-	api "github.com/capsule8/capsule8/api/v0"
+	api "github.com/VikasBhumca2006/capsule8/api/v0"
 )
 
 func valueAsString(value *api.Value) string {
