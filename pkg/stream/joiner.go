@@ -17,7 +17,7 @@ package stream
 import (
 	"reflect"
 
-	"github.com/capsule8/capsule8/pkg/config"
+	"github.com/VikasBhumca2006/capsule8/pkg/config"
 	"github.com/golang/glog"
 )
 
