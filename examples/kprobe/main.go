@@ -37,7 +37,7 @@ import (
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 
-	api "github.com/capsule8/capsule8/api/v0"
+	api "github.com/VikasBhumca2006/capsule8/api/v0"
 )
 
 var config struct {
