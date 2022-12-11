@@ -17,7 +17,7 @@ package sensor
 import (
 	"testing"
 
-	api "github.com/capsule8/capsule8/api/v0"
+	api "github.com/VikasBhumca2006/capsule8/api/v0"
 )
 
 func TestFilterContainerId(t *testing.T) {
