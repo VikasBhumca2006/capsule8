@@ -25,13 +25,13 @@ import (
 	"strings"
 	"time"
 
-	api "github.com/capsule8/capsule8/api/v0"
+	api "github.com/VikasBhumca2006/capsule8/api/v0"
 
-	"github.com/capsule8/capsule8/pkg/config"
-	"github.com/capsule8/capsule8/pkg/container"
-	"github.com/capsule8/capsule8/pkg/stream"
-	"github.com/capsule8/capsule8/pkg/sys"
-	"github.com/capsule8/capsule8/pkg/sys/perf"
+	"github.com/VikasBhumca2006/capsule8/pkg/config"
+	"github.com/VikasBhumca2006/capsule8/pkg/container"
+	"github.com/VikasBhumca2006/capsule8/pkg/stream"
+	"github.com/VikasBhumca2006/capsule8/pkg/sys"
+	"github.com/VikasBhumca2006/capsule8/pkg/sys/perf"
 	"github.com/golang/glog"
 
 	"golang.org/x/sys/unix"
