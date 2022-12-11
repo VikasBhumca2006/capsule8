@@ -26,9 +26,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/capsule8/capsule8/pkg/config"
-	"github.com/capsule8/capsule8/pkg/stream"
-	"github.com/capsule8/capsule8/pkg/sys/inotify"
+	"github.com/VikasBhumca2006/capsule8/pkg/config"
+	"github.com/VikasBhumca2006/capsule8/pkg/stream"
+	"github.com/VikasBhumca2006/capsule8/pkg/sys/inotify"
 	"golang.org/x/sys/unix"
 )
 
