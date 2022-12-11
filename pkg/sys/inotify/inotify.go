@@ -31,8 +31,8 @@ import (
 	"regexp"
 	"sync"
 
-	"github.com/capsule8/capsule8/pkg/config"
-	"github.com/capsule8/capsule8/pkg/stream"
+	"github.com/VikasBhumca2006/capsule8/pkg/config"
+	"github.com/VikasBhumca2006/capsule8/pkg/stream"
 	"github.com/golang/glog"
 
 	"golang.org/x/sys/unix"
