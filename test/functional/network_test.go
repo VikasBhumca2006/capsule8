@@ -21,8 +21,8 @@ import (
 	"testing"
 	"unsafe"
 
-	api "github.com/capsule8/capsule8/api/v0"
-	"github.com/capsule8/capsule8/pkg/expression"
+	api "github.com/VikasBhumca2006/capsule8/api/v0"
+	"github.com/VikasBhumca2006/capsule8/pkg/expression"
 	"github.com/golang/glog"
 )
 
