@@ -21,7 +21,7 @@ import (
 	"strings"
 	"time"
 
-	api "github.com/capsule8/capsule8/api/v0"
+	api "github.com/VikasBhumca2006/capsule8/api/v0"
 	google_protobuf2 "github.com/golang/protobuf/ptypes/timestamp"
 )
 
