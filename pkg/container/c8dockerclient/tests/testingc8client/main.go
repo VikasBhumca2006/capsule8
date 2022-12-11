@@ -17,7 +17,7 @@ package main
 import (
 	"flag"
 
-	"github.com/capsule8/capsule8/pkg/container/c8dockerclient"
+	"github.com/VikasBhumca2006/capsule8/pkg/container/c8dockerclient"
 	"github.com/golang/glog"
 )
 
