@@ -38,6 +38,7 @@ type kprobeFilter struct {
 var validSymbolRegex *regexp.Regexp = regexp.MustCompile("^[A-Za-z_]{1}[\\w]*$")
 
 func newKprobeFilter(kef *api.KernelFunctionCallFilter) *kprobeFilter {
+	glog.Infof("We are here")
 	// The symbol must begin with [A-Za-z_] and contain only [A-Za-z0-9_]
 	// We do not accept addresses or offsets
 	if !validSymbolRegex.MatchString(kef.Symbol) {
@@ -75,6 +76,7 @@ func newKprobeFilter(kef *api.KernelFunctionCallFilter) *kprobeFilter {
 }
 
 func (f *kprobeFilter) decodeKprobe(sample *perf.SampleRecord, data perf.TraceEventSampleData) (interface{}, error) {
+	glog.Infof("We are here")
 	args := make(map[string]*api.KernelFunctionCallEvent_FieldValue)
 	for k, v := range data {
 		value := &api.KernelFunctionCallEvent_FieldValue{}
@@ -124,6 +126,7 @@ func (f *kprobeFilter) decodeKprobe(sample *perf.SampleRecord, data perf.TraceEv
 }
 
 func (f *kprobeFilter) fetchargs() string {
+	glog.Infof("We are here")
 	args := make([]string, 0, len(f.arguments))
 	for k, v := range f.arguments {
 		args = append(args, fmt.Sprintf("%s=%s", k, v))
@@ -133,6 +136,7 @@ func (f *kprobeFilter) fetchargs() string {
 }
 
 func registerKernelEvents(sensor *Sensor, eventMap subscriptionMap, events []*api.KernelFunctionCallFilter) {
+	glog.Infof("We are here")
 	for _, kef := range events {
 		f := newKprobeFilter(kef)
 		if f == nil {
