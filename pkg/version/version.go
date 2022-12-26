@@ -41,6 +41,6 @@ func InitialBuildLog(componentName string) {
 	if Build != "" {
 		buildLog = fmt.Sprintf(" [%s]", Build)
 	}
-
+	glog.Infof("We are here")
 	glog.Infof("Starting %s (%s)%s", componentName, Version, buildLog)
 }
