@@ -56,6 +56,7 @@ type TraceEventField struct {
 
 func writeTraceCommand(name string, cmd string) error {
 	filename := filepath.Join(sys.TracingDir(), name)
+	glog.Infof("writeTraceCommand %s > %s", cmd, filename)
 	file, err := os.OpenFile(filename, os.O_WRONLY|os.O_APPEND, 0)
 	if err != nil {
 		glog.Fatalf("Couldn't open %s WO+A: %s", filename, err)
